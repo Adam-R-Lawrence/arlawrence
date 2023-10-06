@@ -1,0 +1,383 @@
+
+/* Whole Website */
+
+html {
+  min-height:100%;
+  background-color: #1d2228;
+  position: relative;
+  min-width: 365px;
+}
+
+body {
+  font-family: "Baskerville Old Face", Arial, Helvetica, sans-serif;
+
+  height: 100%;
+  margin: 0;
+  padding-bottom: 2.5em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pageLinks {
+  margin-bottom: 1em;
+  max-width: 100%;
+}
+
+.pageButton {
+}
+
+nav ul li a{
+  border-style: solid;
+  border-color: #fb8122;
+  text-decoration: none;
+  padding: 0.1em 1.5em;
+  color: #e1e2e2;
+  background-color: #1d2228;
+  font-size: 3em;
+  border-radius: 1.5em;
+
+}
+
+nav ul li a:hover {
+  color: #e1e2e2;
+  background-color: #454655;
+}
+
+#topHeader {
+  display: grid;
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+#leftHeader {
+  grid-column: 1;
+}
+
+.Title {
+  font-size: 6em;
+  margin-bottom: 0.2em;
+}
+
+#rightHeader {
+  grid-column: 2;
+}
+
+#viewingMode {
+  position: relative;
+  color: #e1e2e2;
+  transform: translate(0, -50%);
+}
+
+#languageMode {
+  position: relative;
+  color: #e1e2e2;
+  transform: translate(0, -50%);
+}
+
+#viewM {
+  padding: 0 12px 0 0;
+  margin: 0;
+  width: 100%;
+  background-color: unset;
+  text-align: right;
+}
+
+#lanM {
+  padding: 0 0 0 12px;
+  margin: 0;
+  width: 100%;
+  background-color: unset;
+  text-align: left;
+}
+
+#aboutMe {
+  /* background-color: #fb8122; */
+  border-style: solid;
+  border-color: #fb8122;
+  border-radius: 1.5em;
+  margin: 2em auto 2em;
+  width: 95%;
+  padding: 1em 1.5em 1.5em;
+  color: #e1e2e2;
+}
+
+main {
+  max-width: 75em; /* Will be AT MOST 20em wide */
+  width: 95%;
+  height: 95%;
+  margin: auto;
+}
+
+
+header {
+  padding-bottom: 5em;
+}
+
+h1 {
+  color: #e1e2e2;
+  text-align: center;
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 0 40px;
+  background: salmon;
+  border: none;
+}
+button:hover {
+  background: lightsalmon;
+}
+
+
+
+/*****************/
+
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+h6#email{
+  color: #e1e2e2;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 0.25em;
+  margin-bottom: 0em;
+}
+
+ul#majorDescription {
+  color: #fb8122;
+  font-size: 2em;
+
+}
+
+p {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: "Baskerville Old Face", serif;
+}
+
+.nameTitle {
+  color: #e1e2e2;
+  font-size: 7em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* Front Page */
+
+
+/* Project */
+
+.content {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+
+}
+
+#more {display: none;}
+#myBtn {
+  color: #e1e2e2;
+  font-size: 2em;
+  padding-bottom: 0.5em;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.content ul {
+  margin: 0 auto;
+  height: auto;
+
+}
+
+.content ul li {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 1em;
+  width: 95%;
+}
+
+.projectList {
+  border: 0.2em solid #fb8122 !important;
+  border-radius: 1.5em;
+}
+
+.project{
+  text-align: justify;
+  border-style: solid;
+  border-color: #fb8122;
+  margin: 1em;
+  border-radius: 1.5em;
+  border-width: 0.2em;
+  color: #e1e2e2;
+}
+
+.project:hover{
+  cursor: pointer;
+  background-color: #1d2228;
+  -webkit-box-shadow: 0 0 3em 6px rgb(255, 150, 68);
+}
+
+
+.ProjectName {
+  color: #e1e2e2;
+  font-size: 4em;
+  margin-left: 1em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0.2em;
+}
+
+.test12 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.Status {
+  color: #1d45bb;
+
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.projectImage {
+  margin: 1em;
+  padding-left: 1em;
+  padding-right: 0.5em;
+}
+
+div#container{
+  display: flex;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li {
+  display: inline-block;
+  min-width: 5.5em;
+}
+
+#logos ul li {
+  display: inline-block;
+  min-width: 6em;
+}
+
+#logos {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 1100px) {
+  
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+  }
+
+
+  #pageLinks ul li {
+    display: block;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  hr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+
+.mystyle {
+  background-color: #efefef;
+  color: #fb8122;
+}
+
+#resumeContent{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  border: 3px solid #fb8122;
+  background-color: white;
+  height: 100vh;        /* Viewport-relative units */
+}

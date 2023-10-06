@@ -1,41 +1,70 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" id = "test">
+  <head>
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="stylesheet" href="website.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adam Lawrence</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <body>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <header>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+      <div id = "topHeader">
+        <div id = "leftHeader"><article id = "lanM"><button  id = "languageMode"> 中文 </button></article></div>
+        <div id = "rightHeader"><article id = "viewM"><button  id = "viewingMode"> Dark Mode </button></article></div>
+      </div>
 
-<body>
+      <script src="buttons.js"></script>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+      <h1 class = "nameTitle" name = "en">Adam Lawrence</h1>
+      <h1 class = "nameTitle" name = "cn">王勇敢</h1>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
+      <ul id ="majorDescription">
+       <li name = "en">Computational Water Engineer</li>
+        <li name = "cn">环境工程师</li>
+      </ul>
 
+      <div id = "logos">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/agdam-lawrence-5469021a7/"><img src = "Images/LinkedIn.png" width= 35em height = 30em/></a></li>
+          <li><a href= "https://github.com/Agdam-R-Lawrence"><img src = "Images/GitHub.png" width= 30em height = 30em/></a></li>
+          <li><a href="mailto: arlawrence@outlook.com.au"><img src = "Images/eMail.png" width= 45em height = 30em/></a></li>
+        </ul>
+      </div>
+
+      <nav class = "pageLinks">
+        <ul id = "theme">
+          <li name = "en"><a href="projects.html">Projects</a></li>
+          <li name = "cn"><a href="blog.html">项目</a></li>
+
+          <li><hr></li>
+          <li name = "en"><a href="resume.html">Resume</a></li>
+          <li name = "cn"><a href="blog.html">简历</a></li>
+
+        </ul>
+      </nav>
+
+    </header>
+
+
+    <main id = "aboutMe">
+      <h1 id="aboutMeTitle">About Me</h1>
+
+      <p>My name is Adam, I am student at The University of Melbourne, currently undertaking a master’s degree in environmental engineering with a focus on environmental hydraulics and hydrology.</p>
+      <p>I am also a keen and skilled programmer, as I took a concurrent diploma of computer science during my undergraduate studies. I am most confident and skilled with C/C++ but am also familiar with Python, Java, JavaScript, and Haskell. I have skill with utilizing advanced programming techniques such as parallel/concurrent programming, graphics programming (Vulkan, WebGPU), template metaprogramming. These skills are reflected and showcased in the projects presented on this website.</p>
+      <p>One such personal project I have been working on with the tentative name of EnviroSim. It is designed as a comprehensive 3D environmental modelling and simulation application running on top of a sophisticated graphics engine that I have developed. Some features of the program include the modelling of erosion, floods, river formation, groundwater, and estuaries and much more. </p>
+      <p>I gained my expertise in computational fluid dynamics from my university’s CFD subject ENGR90024, where I gained invaluable skills in the CFD tools ANSYS Fluent and OpenFOAM as well as the CAD drawing software AutoCAD and used these to complete the following Computational Fluid Dynamics Project.</p>
+      <p>In my final year of my masters, I decided to do my master’s capstone researching and investigating the application of neural networks to enhancing flood modelling.</p>
+      <p>I also have extensive personal and professional practice with data analysis. Including in a research internship which I did with The University of Melbourne, where I was tasked to help with analysing the risk to ships from large rogue waves in Southeast Asian waters and if climate change is increasing said risk. The paper is waiting to be published.</p>
+      <p>I would also consider myself an amateur sinologist. To learn and practice Chinese I created a comprehensive testing suite called KeKao. Additionally, I have an intimate connection with the province of Anhui and compiled an interactive Environmental Map of the province.</p>
+      <p>Other than that, I enjoy reading where my favourite authors include John Steinbeck, Natsume Soseki and Lu Xun, I also enjoy playing and watching Australian Rules Football.</p>
+
+    </main>
+
+  </body>
 </html>
